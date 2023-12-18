@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* th,td,table{
+
+  border-bottom: 1px solid black;
+  width: 100vw;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
+.title{
+display: flex;
+ /* align-self: center; */
+align-items: center; 
+  justify-content: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap:20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+
+.table_container{
+  border: solid 1px #ddd;
+  box-shadow: 0px 0px 5px #0007;
+}
+
+.row{
+  display: flex;
+  width: 90vw;
+background-color: #fcfcfc;
+padding: 10px 20px;
+border-bottom: solid 1px #ddd;
+}
+
+.th{
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+
+.paginatorContainer{
+  display: flex;
+  align-items: center;
+  /* width: 200px; */
+  height: 40px;
+}
+
+.paginatorContainer>button{
+  display: flex;
+  flex:1;
+  outline: none;
+}
+
+.td{
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+  nav{
+    margin: auto;
+   
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+   
+  }
+  .menuButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }

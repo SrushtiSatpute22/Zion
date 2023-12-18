@@ -1,0 +1,19 @@
+.dropDownContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.select {
+  height: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 100%;
+  /* width: 100px; */
+}
+
+.option {
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,132 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .permissioncontainer {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: hidden;
+    background-color: #f6f7fb;
+    height: 100vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 1px #ddd;
+    box-shadow: 0px 0px 5px #0007;
+    padding: 10px;
+    /* width: calc(100vw - 60px); */
+    width: 80%;
+    background-color: #fff;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .table_container {
+    border: solid 1px #ddd;
+    box-shadow: 0px 0px 5px #0007;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-self:center ;
+  
+  }
+  
+  .row {
+    display: flex;
+    width: 90vw;
+    background-color: #fcfcfc;
+    padding: 10px 20px;
+    border-bottom: solid 1px #ddd;
+  }
+  
+  .th {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 14px;
+  }
+  
+  .paginatorContainer {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .paginatorContainer > button {
+    display: flex;
+    flex: 1;
+    outline: none;
+  }
+  
+  .td {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 12px;
+  }
+  nav {
+    margin: auto;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: solid 1px #4468d8;
+    border-radius: 16px 16px 0px 16px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #4468d877;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    border: solid 1px #ddd;
+    /* box-shadow: 0px 0px 2px #0007; */
+  }
+  .button {
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: solid 1px #4468d8;
+    border-radius: 18px 18px 0px 18px;
+    padding: 10px;
+    margin-top: 14px;
+    box-shadow: 2px 2px 5px #4468d877;
+    background-color: #eaebe7;
+    margin-right: 9px;
+  }
+  /* .formContent{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+  }
+  .formValue{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    
+    
+  } */
+  .inputContainer{
+    border: solid 1px #ddd;
+    border-radius: 10px;
+overflow: hidden;
+padding: 10px 12px;
+  }

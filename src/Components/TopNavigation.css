@@ -1,0 +1,17 @@
+/* TopNavigation.css */
+.top-navigation {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-item {
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav-item.active {
+    background-color: #555;
+}
